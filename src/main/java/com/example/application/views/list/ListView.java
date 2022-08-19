@@ -11,6 +11,7 @@ import com.vaadin.flow.router.Route;
 public class ListView extends VerticalLayout {
 
     public ListView() {
+        System.out.println("This is only test");
         Button button = new Button("Click Me");
 
         add(button);
